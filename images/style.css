@@ -15,7 +15,7 @@ body{
     background-position: center;
     background-repeat:no-repeat;
     background-attachment: fixed;
-    background-blend-mode: unset ;
+    
     display:grid;
     place-items: center;
 
@@ -23,6 +23,31 @@ body{
     overflow: hidden;
     
     }
+      /* CSS for the dropdown menu */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+  
+      .navbar li:hover .dropdown-content {
+        display: block;
+      }
+  
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+  
+      .dropdown-content a:hover {
+        background-color: #f1f1f1;
+      }
  div h1{
     color:rgb(18, 41, 188);
     font-weight: 900;
@@ -33,7 +58,7 @@ body{
     
     
  
-}
+} */
 
 
  div h2{
